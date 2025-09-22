@@ -1,2 +1,20 @@
-# Library-Management-System-SQL-PROJECT-
-This project is part of the SQL Developer Internship (Task 1). It demonstrates how to design and implement a Library Management System using SQL concepts such as DDL, relationships, primary &amp; foreign keys, and constrain
+# Library Management System (SQL Internship Task 1)
+
+## Objective
+To design and implement a relational database schema with tables, keys, and relationships.
+
+## Database Used
+MySQL Workbench
+
+## Schema
+- students (student_id, name, email, dept)
+- books(book_id, title,author,avaiable)
+- transaction (txn_id, student_id,book_id,issue_date,return_date,)
+
+
+## Key Features
+- Primary keys and foreign keys implemented
+- Normalized structure to avoid redundancy
+- ER diagram showing entity relationships
+
+
